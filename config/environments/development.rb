@@ -72,4 +72,5 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+  config.hosts << "e3c4a14b1e8d48389aef4c86ad38d084.vfs.cloud9.ap-northeast-1.amazonaws.com"
 end
